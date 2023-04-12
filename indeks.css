@@ -39,18 +39,26 @@ line-height: 1.4;
 */
 img{
   border-radius: 10px;
-  background: ;
+  width: 100%;
+  /* height: auto; */
+  max-width:300px;
 }
 
 .content-row {
   display: flex;
 }
-
+.content-row img{
+  width: 40%;
+  display: inline;
+}
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
  margin: 20px;
 }
-
+.content p{
+display: inline;
+padding-left: 20px;
+}
 .container {
   /*======= width property yaratın. Değerini 605px olarak atayın */
   margin: 0 auto;
@@ -58,6 +66,7 @@ img{
 }
 
 .full-width{
+  width: 100%;
   background-color:aliceblue;
   padding: 30px 0 30px 0;
 }
@@ -78,14 +87,19 @@ img{
 
 .container header nav a:hover {
 /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
-background: white;
+background: rgb(241, 238, 238);
 color: #E79947;
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
-
+.about-section{
+  margin-top: 20px;
+}
+.container {
+  margin-top: 20px;
+}
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
@@ -109,7 +123,7 @@ footer {
 footer .footer-content { 
   margin: 0 auto; 
   /*======= width property yaratın. Değerini 605px olarak atayın */
-  
+  width: 600px;
 }
 
 footer .footer-content h3 {
